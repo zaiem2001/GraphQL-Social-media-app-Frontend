@@ -1,0 +1,48 @@
+.post-form {
+  padding: 10px;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bounce {
+  display: flex;
+  margin: 0 10px;
+}
+
+.bounce1,
+.bounce2,
+.bounce3 {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 0 auto;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.bounce2 {
+  animation-delay: -0.5s;
+}
+
+.bounce3 {
+  animation-delay: -0.2s;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(0);
+    background-color: rebeccapurple;
+  }
+  25% {
+    background-color: black;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+    

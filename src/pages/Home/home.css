@@ -1,0 +1,131 @@
+.home {
+  width: 100vw;
+}
+
+.current-user-wrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-post-button {
+  border: 1px solid rebeccapurple;
+  margin: auto;
+}
+
+.posts-btn {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-post-button {
+  border: 1px solid crimson;
+  color: crimson;
+  margin-right: 15px;
+}
+
+.view-post-button:hover {
+  color: white;
+  background-color: crimson;
+}
+
+.create-post-button:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.posts-actions {
+  display: flex;
+}
+
+.current-user-wrapper a {
+  text-decoration: none;
+}
+
+.current-user-info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.current-user-info div {
+  margin-bottom: 10px;
+}
+
+.current-user-info div span:first-child {
+  display: inline-block;
+  width: 90px !important;
+}
+
+.current-user-avatar {
+  width: 200px;
+  /* overflow: hidden; */
+  margin-right: 19px;
+}
+
+.current-user-avatar img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.other-user-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-title {
+  margin-bottom: 20px;
+
+  /* font-weight: 600; */
+  color: rebeccapurple;
+  text-decoration: underline;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: fantasy;
+}
+
+.other-users {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.other-users .current-user {
+  margin: 20px;
+  width: 450px;
+
+  justify-content: start;
+  align-items: start;
+}
+
+.other-users .current-user-avatar {
+  width: 100px;
+  margin-right: 19px;
+}
+
+.other-users .current-user-avatar img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.other-users .current-user-info div span:first-child {
+  color: rebeccapurple;
+  font-weight: 700;
+}
+
+.other-users .current-user-info div span:last-child {
+  color: crimson;
+  font-weight: 400;
+}

@@ -1,0 +1,166 @@
+.user-details {
+  width: 100vw;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info-details {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.user-details-avatar {
+  width: 150px;
+  height: 150px;
+
+  margin-right: 20px;
+}
+
+.user-details-avatar img {
+  width: 100%;
+}
+
+.user-details-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.basic-details {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.basic-details div {
+  margin-right: 20px;
+  display: flex;
+  /* width: 50%; */
+}
+
+.user-details-info span:first-child {
+  display: block;
+  width: 100px;
+  /* background-color: aliceblue; */
+  margin-bottom: 5px;
+}
+
+.follower-details {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.follower-details div {
+  margin-right: 20px;
+  display: flex;
+  width: 50%;
+}
+
+.posts-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+
+  font-size: 30px;
+  font-weight: 500;
+  color: crimson;
+}
+
+.posts {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  display: flex;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rebeccapurple;
+}
+
+.left {
+  display: flex;
+  flex: 5;
+}
+
+.right {
+  flex: 7;
+  padding: 10px 0;
+  height: 100%;
+  width: 100%;
+}
+
+.post-comments-container {
+  width: 100%;
+  max-height: 200px;
+  overflow: auto;
+  /* padding: 0 10px; */
+}
+
+.user-comment-image {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-comment-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.user-comment {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around; */
+  margin-bottom: 6px;
+  align-items: center;
+}
+
+.commented-by {
+  font-weight: 500;
+  color: rebeccapurple;
+  margin-right: 15px;
+}
+
+.comment-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.post-image {
+  width: 200px;
+}
+
+.post-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.post-info {
+  padding: 20px;
+  color: rebeccapurple;
+}
+
+.post-content {
+  margin-bottom: 15px;
+}
+
+.sendComment {
+  color: crimson;
+  cursor: pointer;
+}

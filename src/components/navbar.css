@@ -1,0 +1,22 @@
+.navbar {
+  width: 100vw;
+  height: 90px;
+  background-color: #eee;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+}
+
+.links-container div {
+  margin-right: 20px;
+}
+
+.links-container div a {
+  text-decoration: none;
+  color: #000;
+}
